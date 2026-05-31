@@ -133,3 +133,17 @@ print(len(thisset)) #check length
 # symmetric_difference_update()	^=	Inserts the symmetric differences from this set and another
 # union()	|	Return a set containing the union of sets
 # update()	|=	Update the set with the union of this set and others
+
+# Dictionary
+# Dictionaries are used to store data values in key:value pairs.
+# A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+this_dict = {
+    "brand" : "Toyota",
+    "Model" : "Prius",
+    "year" : 1989
+}
+print(this_dict)
+# accessing dictionaries
+x = this_dict["brand"] #OR get()
+print(x)
