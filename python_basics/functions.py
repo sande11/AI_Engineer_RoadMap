@@ -16,5 +16,13 @@ def greet( first_name, last_name):
 greet("kelvin", "sande")
 
 # types of functions
-# performs a task
-# returns a value
+    # performs a task
+    # returns a value
+
+# converting temperature function example
+
+def convert_temp (fahrenheit):
+    return (fahrenheit - 32) * 5 / 9
+
+print(convert_temp(77))
+print(convert_temp(55))
