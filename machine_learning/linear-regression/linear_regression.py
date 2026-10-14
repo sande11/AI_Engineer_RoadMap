@@ -14,6 +14,7 @@ df = pd.read_csv(url)
 # print(df.sample(5))
 print(df.describe())
 
+# Select the columns you need
 cdf = df[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_COMB', 'CO2EMISSIONS']]
 print(cdf.sample(9))
 
